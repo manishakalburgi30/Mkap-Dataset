@@ -1,4 +1,4 @@
-# Autonomous Electric Buggy: Multi-Modal Perception, Sensor Calibration & Standardized Dataset Suite
+# Mkap-Dataset: Autonomous Electric Buggy Multi-Modal Perception, Sensor Calibration & Standardized Dataset Suite
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ROS Version](https://img.shields.io/badge/ROS-Melodic%20%7C%20Noetic-blue.svg)](http://wiki.ros.org/)
