@@ -30,8 +30,9 @@ However, deploying such systems in real-world environments introduces critical c
 ---
 
 ## 3. Team Members
-* **Manisha Kalburgi** – Research Lead & Developer ([GitHub: @manishakalburgi30](https://github.com/manishakalburgi30))
-* **Autonomous Buggy Research & Engineering Team** – Robotics & Autonomous Systems Laboratory
+* **Manisha Kalburgi** ([GitHub: @manishakalburgi30](https://github.com/manishakalburgi30))
+* **Sahajanand Palresha**([GitHub: @SahajanandYP](https://github.com/SahajanandYP))
+* **Nimisha I M** ([GitHub: @nimishaim](https://github.com/nimishaim))
 
 ---
 
@@ -46,7 +47,6 @@ However, deploying such systems in real-world environments introduces critical c
 | **3D LiDAR** | Velodyne Puck (VLP-16) | 16 channels, $360^\circ$ H-FOV, $\pm 15^\circ$ V-FOV, 100m range, $10\,\text{Hz}$ UDP Ethernet |
 | **Stereo Camera** | Stereolabs ZED X | Dual global-shutter CMOS, GMSL2 coaxial interface, hardware sync, $960\times 600$ at $15-30\,\text{Hz}$ |
 | **Inertial (IMU)** | Xsens MTi-680G | 9-axis industrial MEMS IMU, $100\,\text{Hz}$ linear acceleration & angular velocity via USB/serial |
-| **2D Safety LiDARs**| SICK TiM 5xx (3 units) | Planar collision avoidance envelope (Front-Left, Front-Right, Rear-Center) |
 | **Networking** | Gigabit Ethernet Switch | Dedicated inter-machine local bus with hardware-level PTP/NTP clock synchronization |
 
 ### Software & Frameworks
