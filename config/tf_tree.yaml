@@ -1,0 +1,30 @@
+frames:
+  base_link:
+    description: 'Vehicle reference frame (REP-105: +X Fwd, +Y Left, +Z Up)'
+  front_camera_body:
+    parent: base_link
+    translation:
+    - 1.3894
+    - 0.32
+    - 0.588
+  imu_link:
+    parent: base_link
+    rpy_deg:
+    - 0.0
+    - 0.0
+    - 0.0
+    translation:
+    - 0.0109
+    - 0.0
+    - 0.5004
+  velodyne:
+    parent: base_link
+    pitch_deg: 10.0
+    translation:
+    - 2.4779
+    - 0.0
+    - 1.6866
+  zedx_right_camera_optical_frame:
+    baseline_y_m: -0.06
+    parent: front_camera_body
+reference_origin: base_link (Center of Rear Axle at Ground Level)

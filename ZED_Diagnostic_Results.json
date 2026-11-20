@@ -1,0 +1,128 @@
+{
+    "AI Models": {
+        "info": [
+            "MULTI CLASS DETECTION is not optimized",
+            "MULTI CLASS MEDIUM DETECTION is not optimized",
+            "MULTI CLASS ACCURATE DETECTION is not optimized",
+            "HUMAN BODY FAST DETECTION is not optimized",
+            "HUMAN BODY MEDIUM DETECTION is not optimized",
+            "HUMAN BODY ACCURATE DETECTION is not optimized",
+            "HUMAN BODY 38 FAST DETECTION is not optimized",
+            "HUMAN BODY 38 MEDIUM DETECTION is not optimized",
+            "HUMAN BODY 38 ACCURATE DETECTION is not optimized",
+            "PERSON HEAD DETECTION is not optimized",
+            "PERSON HEAD ACCURATE DETECTION is not optimized",
+            "REID ASSOCIATION is not optimized",
+            "NEURAL DEPTH is not optimized",
+            "NEURAL PLUS DEPTH is not optimized"
+        ]
+    },
+    "Camera Test": {
+        "InternalDevicesCount": 0,
+        "ZEDCount": 0,
+        "error": [
+            "<b>Camera not detected</b> <br/> Make sure the camera is plugged in or try another USB 3.0 port."
+        ]
+    },
+    "Devices": {
+        "CorruptedFirmware": false,
+        "GMSL driver": "ii  stereolabs-zedx                            0.5.1-MAX96712-L4T35.3.1             arm64        NVIDIA Kernel DTB Modified Package by Stereolabs\n",
+        "GMSL driver compatiblity": "KO",
+        "GMSLList": [
+        ],
+        "USBList": [
+            {
+                "USB_path": "/3",
+                "idProduct": "0x0420",
+                "idVendor": "0x0bda"
+            },
+            {
+                "USB_path": "/4/2",
+                "idProduct": "0x00bd",
+                "idVendor": "0x04ca"
+            },
+            {
+                "USB_path": "/4",
+                "idProduct": "0x5420",
+                "idVendor": "0x0bda"
+            },
+            {
+                "USB_path": "/3",
+                "idProduct": "0x3549",
+                "idVendor": "0x13d3"
+            }
+        ],
+        "ZEDDetected": null,
+        "error": [
+            "<b>GMSL driver incompatible with your L4T version.</b> <br/> If you updated L4T, you should update the GMSL driver too."
+        ]
+    },
+    "Graphics Card": {
+        "deviceCount": 1,
+        "deviceDriverVersion": 11040,
+        "devices": [
+            {
+                "arch": "Ampere",
+                "computeCapability": "8.7",
+                "cores": 1024,
+                "name": "Orin",
+                "totalMemoryBytes": "65853059072",
+                "totalMemoryMB": 62802.37109375
+            }
+        ],
+        "glx_info": "OpenGL vendor string: NVIDIA Corporation\nOpenGL renderer string: NVIDIA Tegra Orin (nvgpu)/integrated\nOpenGL core profile version string: 4.6.0 NVIDIA 35.4.1\nOpenGL core profile shading language version string: 4.60 NVIDIA\nOpenGL core profile context flags: (none)\nOpenGL core profile profile mask: core profile\nOpenGL core profile extensions:\nOpenGL version string: 4.6.0 NVIDIA 35.4.1\nOpenGL shading language version string: 4.60 NVIDIA\nOpenGL context flags: (none)\nOpenGL profile mask: (none)\nOpenGL extensions:\nOpenGL ES profile version string: OpenGL ES 3.2 NVIDIA 35.4.1\nOpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20\nOpenGL ES profile extensions:\n",
+        "initResult": 0,
+        "valid": [
+            "<b>Graphics card: </b> Orin"
+        ]
+    },
+    "Processor": {
+        "L4T version": "35.4.1",
+        "OS": "Ubuntu 20.04.6 LTS ",
+        "avxSupported": false,
+        "coreCount": "12",
+        "cpu": " ARMv8 Processor rev 1 (v8l)",
+        "datetime": "2026-08-11 04:05:22 PM IST",
+        "hyperThreading": "0",
+        "motherboard": "Jetson AGX Orin Developer Kit, Unknown",
+        "ramCapacity": "65.853059",
+        "ramUsage": "",
+        "ramUsed": "5.207294",
+        "threadCount": "12",
+        "valid": [
+            "<b>Processor: </b>  ARMv8 Processor rev 1 (v8l)",
+            "<b>Motherboard: </b> Jetson AGX Orin Developer Kit, Unknown"
+        ]
+    },
+    "ZED SDK": {
+        "CUDA Toolkit version": "V11.4.315 -->located in /usr/local/cuda-11.4/bin/nvcc",
+        "ZED SDK Version (Diag)": "4.1.4",
+        "ZED SDK Version (RT)": "4.1.4",
+        "ai": {
+            "checkAI": false,
+            "cudaVersion": 11040,
+            "cudnnCudartVersion": -1,
+            "cudnnVersion": -1,
+            "cudnnVersionExpected": 8600,
+            "loadAI": "CUDNN NOT FOUND",
+            "tensorVersion": -1
+        },
+        "binFiles": [
+            "libsl_ai.so",
+            "libsl_zed.so",
+            "libsl_zed_static.a"
+        ],
+        "resourcesFiles": [
+        ],
+        "resourcesFilesExpected": [
+            "objects_performance_3.2"
+        ],
+        "valid": [
+            "<b>ZED SDK version:</b> 4.1.4",
+            "<b>CUDA version:</b> V11.4.315"
+        ],
+        "warning": [
+            "<b>Object detection</b> module corrupted. Please reinstall the ZED SDK and enable the Object Detection option."
+        ]
+    }
+}

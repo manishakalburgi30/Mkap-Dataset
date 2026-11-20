@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ROS and Bags
+*.bag
+*.bag.active
+*.active
+
+# Large Point Cloud & Image Dataset files
+*.bin
+*.pcd
+*.png
+*.jpg
+*.jpeg
+*.whl
+
+# Ignore generated datasets directory
+datasets/
+raw_bag/
+kitti_format/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~

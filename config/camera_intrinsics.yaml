@@ -1,0 +1,29 @@
+camera_name: zedx_front_right
+coordinate_convention: ROS REP-103 Optical (+X Right, +Y Down, +Z Forward)
+image_height: 600
+image_width: 960
+model: Stereolabs ZED X
+projection_matrix_P2:
+- 638.0184936523438
+- 0.0
+- 495.2979736328125
+- -76.69021606445312
+- 0.0
+- 638.0184936523438
+- 311.33197021484375
+- 0.0
+- 0.0
+- 0.0
+- 1.0
+- 0.0
+rectification_matrix_R0:
+- 1.0
+- 0.0
+- 0.0
+- 0.0
+- 1.0
+- 0.0
+- 0.0
+- 0.0
+- 1.0
+serial_number: 42766808

@@ -1,0 +1,34 @@
+calibration_version: v1.3_hallway_calibrated_202611
+matrix_4x4:
+- - 0.0
+  - -1.0
+  - 0.0
+  - 0.26
+- - 0.173648
+  - 0.0
+  - -0.984808
+  - -1.053
+- - 0.984808
+  - 0.0
+  - 0.173648
+  - 1.586
+- - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+quaternion_xyzw:
+- -0.455
+- 0.455
+- -0.542
+- 0.542
+rotation_rpy_deg:
+- -80.0
+- 0.0
+- -90.0
+source_frame: velodyne (VLP-16)
+target_frame: zedx_right_camera_optical_frame
+transformation_direction: T_camera_optical_from_velodyne
+translation_xyz_m:
+- 1.586
+- 0.26
+- -1.053

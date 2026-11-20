@@ -1,0 +1,16 @@
+quaternion_xyzw:
+- 0.0
+- -0.087156
+- 0.0
+- 0.996195
+rotation_rpy_deg:
+- 0.0
+- -10.0
+- 0.0
+source_frame: imu_link (Xsens MTI)
+target_frame: velodyne
+transformation_direction: T_velodyne_from_imu
+translation_xyz_m:
+- -2.223539
+- 0.0
+- -1.596569
